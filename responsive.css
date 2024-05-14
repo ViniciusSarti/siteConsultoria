@@ -1,0 +1,260 @@
+
+@media screen and (max-width: 1100px) {
+    .navbar article h2{
+        display: none;
+    }
+
+    #banner{
+       display: none;
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+        padding: 150px;
+    }
+
+    .main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .business{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .conquistas{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .conquistas .item{
+        flex-basis: 49%;
+    }
+
+    .skills .right h1{
+        display: none;
+    }
+
+    .skills{
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .skills .left{
+        width: 500px;
+    }
+
+    .skills .left .info h3{
+        font-size: 22px;
+    }
+
+    .skills .left .info p{
+        font-size: 12px;
+    }
+
+    #equipe{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    footer{
+        margin-top: 150px;
+    }
+
+    footer .start{
+        width: 90%;
+        left: 5%;
+        top: -20%;
+    }
+
+    footer .cols{
+        flex-wrap: wrap;
+    }
+
+    footer .cols .about-col{
+        flex-basis: 50%;
+    }
+
+    footer .cols .links-col{
+        flex-basis: 50%;
+    }
+
+    footer .cols .news-col{
+        flex-basis: 50%;
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+    
+    .navbar button{
+        display: none;
+    }
+
+    .main h4{
+        font-size: 24px;
+    }
+
+    .main p.title{
+        font-size: 36px;
+    }
+
+    .main p.subtitle{
+        font-size: 14px;
+    }
+
+    .main{
+        scale: 0.8;
+        flex-wrap: wrap;
+    }
+
+    .conquistas .item{
+        flex-basis: 100%;
+    }
+
+    .conquistas{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #equipe .person{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .about{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .skills .right h1{
+        display: none;
+    }
+
+    #empresas{
+        flex-basis: 49%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    
+    .navbar{
+        justify-content: center;
+    }
+
+    .navbar h2{
+        display: none;
+    }
+
+    .navbar ul li a{
+        font-size: 14px;
+    }
+
+    .main{
+        margin-top: 50px;
+        height: 320px;
+        justify-content: start;
+    }
+
+    .main h4{
+        font-size: 20px;
+    }
+
+    .main p.title{
+        font-size: 28px;
+    }
+
+    .main p.subtitle{
+        font-size: 12px;
+    }
+
+    .main img{
+        margin-top: 40px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .skills{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .skills .right{
+        justify-content: space-between;
+    }
+
+    .skills .right h1{
+        display: none;
+    }
+
+    .skills .left .info h3{
+        font-size: 20px;
+    }
+
+    footer{
+        top: 150px;
+    }
+
+    footer .start{
+        top: -8%;
+    }
+
+    footer .start p{
+        display: none;
+    }
+
+    footer .cols .about-col{
+        flex-basis: 100%;
+        margin-bottom: 40px;
+    }
+
+    footer .cols .links-col{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    footer .cols .news-col{
+        flex-basis: 100%;
+    }
+
+    #equipe .person{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    
+    .main p.title{
+        font-size: 18px;
+    }
+
+    .main p.subtitle{
+        font-size: 10px;
+    }
+
+    .business .item .info p{
+        font-size: 5px;
+    }
+
+    .conquistas .item .info h3{
+        font-size: 20px;
+    }
+
+    .conquistas .item .info p{
+        font-size: 12px;
+    }
+
+    .skills .right h1{
+        display: none;
+    }
+
+    #equipe{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}

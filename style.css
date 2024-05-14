@@ -1,0 +1,597 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: #212529;
+}
+
+.navbar img{
+    height: 85px;
+    top: -3px;
+}
+
+article{
+    display: flex;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 20px;
+    background-color: #16191c;
+}
+
+.navbar h2{
+    color: ivory;
+    font-weight: 1200;
+    scale: 1.6;
+    display: flex;
+    position: absolute;
+    left: 180px;
+    align-self: center;
+}
+
+.navbar img:hover{
+    transition: .5s;
+    text-decoration: overline;
+    cursor: pointer;
+    scale: 0.8;
+    filter: opacity(50%);
+}
+
+.navbar ul{
+    display: flex;
+}    
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li:hover a{
+    color:  rgb(185, 34, 153);
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.navbar ul li:last-child a{
+    margin: 0;
+}
+
+.acesse-btn{
+    background: white;
+    padding: 6px 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.acesse-btn:hover{
+    background: rgb(185, 34, 153);
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section img{
+    display: flex;
+}
+
+.contrate-btn{
+    background: white;
+    padding: 16px 90px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 40px;
+    transition: 0.5s ease;
+    position: absolute;
+    left: 250px;
+    top: 140px;
+
+}
+
+.contrate-btn:hover{
+    background: gold;
+    scale: 1.1;
+}
+
+section h1{
+    position: absolute;
+    left: 130px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100px;
+    top: 250px;
+    font-variant: small-caps;
+    font-size: xx-large;
+    transition: 0.5s;
+}
+
+section h1:hover{
+    filter: grayscale(50%);
+    filter: drop-shadow(50%);
+    color: gold;   
+}
+
+.main{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2225;
+    background-image: url('images/background-beneficios.png');
+    
+}
+
+.main h4{
+    font-size: 32px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.main h4 span{
+    text-decoration: underline;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fb8c00;
+}
+
+.main p.title{
+    font-size: 44px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 8px;
+}
+
+.main p.subtitle{
+    font-size: 24px;
+    color: #ccc;
+    margin-top: 20px;
+}
+
+.main h1{
+    position: absolute;
+    margin-top: 300px;
+    color: darkgoldenrod;
+}
+
+.business{
+    margin-top: 10px;
+    padding: 50px 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 50px;
+    border-style: ridge;
+    border: #3b3d42;
+}
+
+.business .item{
+    background: #3b3d42;
+    opacity: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    padding: 100px 10px;
+    border: 1px solid transparent;
+    cursor: default;
+    transition: all 0.3s ease;
+
+}
+
+.business .item:hover{
+    border-color: #ffb742;
+}
+
+.business .item .icon{
+    width: 55px;
+    height: 55px;
+    background: #d7e46934;
+    filter: opacity(73%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 30%;
+    transition: background-color 0.3s ease;
+    flex-direction: column;
+    padding: 80px;
+}
+
+.business.item:hover .icon{
+    background-color: goldenrod;
+}
+
+.business .item .icon span{
+    font-size: 35px;
+    color: gold;
+}
+
+.business .item .icon .material-symbols-outlined{
+    font-size: 600%;
+    color: gold;
+}
+
+.business .item .icon:hover .material-symbols-outlined{
+    font-size: 125px;
+    color: gold;
+    transition: 0.5s;
+}
+
+
+.business .item .info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.business .item .info h3{
+    color: #ffb742;
+    font-size: 28px;
+    align-self: center;
+}
+
+.business .item .info p{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 380;
+}
+
+.backfoto{
+    background-image: url(images/background-beneficios.png);
+}
+
+.conquistas{
+    margin-top: 5px;
+    padding: 50px 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+}
+
+.conquistas .item{
+    background: #292b2e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0 30px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.conquistas .item:hover{
+    border-color: #ffb742;
+}
+
+.conquistas .item .icon{
+    width: 46px;
+    height: 46px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.conquistas .item:hover .icon{
+    background-color: #ffb742;
+}
+
+.conquistas .item .icon i{
+    font-size: 30px;
+}
+
+.conquistas .item .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conquistas .item .info h3{
+    color: #ffb742;
+    font-size: 28px;
+}
+
+.conquistas .item .info p{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.conquistas .item > i{
+    color: #fff;
+    font-size: 30px;
+    transition: color 0.3s ease;
+}
+
+.conquistas .item:hover > i{
+    color: #ffb742;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    padding: 70px 50px;
+    background-color: #262b30;
+    border: #ccc solid;
+}
+
+.about img{
+    width: 280px;
+}
+
+.about img:hover{
+    transition: .5s;
+    text-decoration: overline;
+    cursor: pointer;
+    scale: 0.8;
+    filter: opacity(50%);   
+}
+
+.about .info h3{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about .info p{
+    color: #ccc;
+    font-size: 15px;
+}
+
+.about .info button{
+    margin-top: 30px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 50px;
+}
+
+.skills .left{
+    width: 680px;
+}
+
+.skills .left .info h3{
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.skills .left .info p{
+    color: #ccc;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.skills .left button{
+    margin-top: 30px;
+}
+
+.skills .right{
+    width: 420px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.skills .right img{
+    display: flex;
+    align-self: flex-start;
+}
+
+#equipe{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#equipe img{
+    width: 230px;
+    border-radius: 50%;
+    padding: 20px;
+    display: block;
+    height: 230px;
+}
+
+#meio{
+    margin-right: 40px;
+}
+
+#equipe .person{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 150px;
+}
+
+#equipe p{
+    color: white;
+    text-align: center;
+}
+
+#equipe h1{
+    color: white;
+    text-align: center;
+}
+
+#equipe i{
+    color: rgb(56, 247, 253);
+    text-align: center;
+    font-size: 30px; 
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+footer{
+    position: relative;
+    background: #1c1c1c;
+    padding: 80px 50px 40px;
+    margin-top: 100px;
+}
+
+footer .start{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    background-color: #ffb742;
+    padding: 30px 25px;
+    border-radius: 15px;
+    width: 70%;
+    top: -16%;
+    left: 15%;
+}
+
+footer .start p{
+    font-size: 13px;
+    width: 35%;
+}
+
+footer .start button{
+    background: transparent;
+    border: 1px solid #000;
+    cursor: pointer;
+    padding: 8px 20px;
+    border-radius: 100px;
+    transition: all 0.3s ease;
+}
+
+footer .start button:hover{
+    background-color: black;
+    color: white;
+}
+
+footer .cols{
+    display: flex;
+    align-items: start;
+}
+
+footer .cols .about-col{
+    flex: 3;
+}
+
+footer .cols .about-col h3{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+footer .cols .about-col p{
+    color: #ccc;
+    font-size: 13px;
+}
+
+footer .cols .links-col{
+    flex: 3;
+}
+
+footer .cols .links-col h4, footer .cols .news-col h4{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+footer .cols .links-col a{
+    display: block;
+    text-decoration: none;
+    color: #7b7b7b;
+    font-size: 14px;
+    line-height: 26px;
+    transition: color 0.3s ease;
+}
+
+footer .cols .links-col a:hover{
+    color: #ffb742;
+}
+
+footer .cols .news-col{
+    flex: 3;
+}
+
+footer .cols .news-col p{
+    color: #7b7b7b;
+    font-size: 15px;
+}
+
+footer .cols .news-col form{
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+footer .cols .news-col form input{
+    width: 100%;
+    background: #212529;
+    border: none;
+    padding: 13px;
+    border-radius: 100px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+footer .cols .news-col form button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background: #ffb742;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+footer .cols .news-col form button:hover{
+    background-color: #fb8c00;
+}
+
+footer .cols .news-col form button i{
+    font-size: 26px;
+}
